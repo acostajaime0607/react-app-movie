@@ -57,7 +57,10 @@ export default function CardMovies({ data }) {
           </div>
         </div>
       </div>
-      <a href="#" target="blank">
+      <a
+        href="https://github.com/acostajaime0607/react-app-movie"
+        target="blank"
+      >
         <img
           className="dribbble-link"
           style={{ color: "white", backgroundColor: "white" }}

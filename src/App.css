@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
 
 :root {
   --primary-color: #22254b;
@@ -59,8 +61,6 @@ a {
   margin-bottom: 1rem;
 }
 
-@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800,300italic,400italic,600italic,700italic,800italic);
 body {
   background: linear-gradient(rgba(30, 27, 38, 0.95), rgba(30, 27, 38, 0.95)),
     url("https://i.ibb.co/FDGqCmM/papers-co-ag74-interstellar-wide-space-film-movie-art-33-iphone6-wallpaper.jpg");
@@ -108,7 +108,6 @@ body {
 }
 
 .movie {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+39,1e1b26+53&0+38,1+55 */
   background: -moz-linear-gradient(
     top,
     rgba(255, 255, 255, 0) 38%,
@@ -132,9 +131,8 @@ body {
     rgba(30, 27, 38, 0.88) 53%,
     #1e1b26 55%
   );
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#1e1b26',GradientType=0 );
-  /* IE6-9 */
   position: absolute;
   background-size: contain;
   background-size: cover;
@@ -182,8 +180,6 @@ body {
   margin-top: 12px;
 }
 
-/* TYPOGRAPHY STARTS */
-/* Fonts */
 h1,
 h2,
 h3,
@@ -268,8 +264,6 @@ h5 {
   font-style: italic;
 }
 
-/* TYPOGRAPHY ENDS */
-/** GRID STARTS **/
 .thegrid {
   margin: 0 auto;
 }
@@ -315,7 +309,6 @@ h5 {
   display: block;
 }
 
-/* Columns match, minus margin sum. E.G. margin-left+margin-right=1%, col2=50%-1% - added padding:1%*/
 .col1 {
   width: 98%;
 }
@@ -340,7 +333,6 @@ h5 {
   width: 13.6666666667%;
 }
 
-/* Columns match with their individual number. E.G. col3+col3rest=full width row */
 .col3rest {
   width: 63.6666666667%;
 }
