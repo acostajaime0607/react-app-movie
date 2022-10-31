@@ -20,9 +20,17 @@ function App() {
 
   return (
     <>
-      <div style={{ display: "flex", alignItems: "center" }}>
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      >
         <div>
-          <h1 id="container">Pagina # {page}</h1>
+          <h1 id="container" style={{ color: "red" }}>
+            Pagina # {page}
+          </h1>
         </div>
 
         <div>
